@@ -20,10 +20,10 @@
 					"components": [
 						{
 							"name": "home_jumbotron",
-							"title": "Example application",
+							"title": "Vicky",
 							"type": "jumbotron",
-							"text": "<b>This is example application built with <a href=\"http://www.meteorkitchen.com\" target=\"_blank\">meteor-kitchen</a> code generator without manual coding.</b><br />It demonstrates simple application with user account system and admin panel.<br />Source code (input file for generator) is <a href=\"https://github.com/perak/kitchen-examples/tree/master/example-admin\" target=\"_blank\">here</a>.",
-							"button_title": "Continue &raquo;",
+							"text": "<b>Mit Vicky können Sie all Ihre Daten sortiern, verwalten und organisieren </b><br />Egal ob Rezepte, Anleitungen, Adressen, Visitenkarten, Internet-Links, Berichte, Programmzeilen, Dokumente, Bilder oder Projekte an denen Sie gerade arbeiten.<br /><br /><b> + Kein suchen </b>nach dem Rezept fürs Oma's besten Apfelkuchen<br /><b> + Kein suchen </b>nach den Visitenkarte des Tischlermeisters<br /><b> + Kein suchen </b>nach dem Namen des Weins der letzte Woche so gut geschmeckt hat<br /><b> + Kein suchen </b>nach dem Internet -Link mit dem tollen Angebot<br /><b> + Kein suchen </b>nach der Bedienungsanleitung des Backofens<br /><b> + Kein suchen </b>nach den Reisetipps der schönsten Orte Norwegens<br /><b> + Kein suchen </b>nach dem herausgerissenen Zeitungsartikel <br /><br /> <b>Um all das kümmert sich Vicky :)</b>",
+							"button_title": "Wollt ihr wissen wie? &raquo;",
 							"button_route": "login",
 							"dest_selector": "",
 							"dest_position": "",
