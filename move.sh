@@ -1,4 +1,4 @@
 #!/bin/bash
-echo "move testadmin.js"
-mv ~/Downloads/testadmin.json ./ 
-meteor-kitchen testadmin.json testadmin
+echo "move vicky.json"
+mv ~/Downloads/vicky.json ./ 
+meteor-kitchen vicky.json vicky
