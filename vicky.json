@@ -31,19 +31,13 @@
 							"title_icon_class": "",
 							"events_code": "",
 							"helpers_code": "",
-							"query": {
-								"name": "",
-								"collection": "",
-								"find_one": false,
-								"filter": {},
-								"options": {},
-								"params": []
-							},
 							"components": [],
 							"template_rendered_code": "",
 							"image_url": "",
 							"button_route_params": [],
-							"button_class": ""
+							"button_class": "",
+							"query_name": "",
+							"query_params": []
 						}
 					],
 					"type": "page",
@@ -54,14 +48,6 @@
 					"title_icon_class": "",
 					"events_code": "",
 					"helpers_code": "",
-					"query": {
-						"name": "",
-						"collection": "",
-						"find_one": false,
-						"filter": {},
-						"options": {},
-						"params": []
-					},
 					"template_rendered_code": "",
 					"meta_description": "",
 					"meta_title": "",
@@ -73,12 +59,15 @@
 					"back_route": "",
 					"back_route_params": [],
 					"roles": [],
-					"menus": [],
 					"pages": [],
-					"queries": [],
 					"force_yield_subpages": false,
 					"zoneless": false,
-					"parent_layout": false
+					"parent_layout": false,
+					"query_name": "",
+					"query_params": [],
+					"related_queries": [],
+					"controller_before_action": "",
+					"controller_after_action": ""
 				},
 				{
 					"name": "login",
@@ -90,14 +79,6 @@
 					"title_icon_class": "",
 					"events_code": "",
 					"helpers_code": "",
-					"query": {
-						"name": "",
-						"collection": "",
-						"find_one": false,
-						"filter": {},
-						"options": {},
-						"params": []
-					},
 					"components": [],
 					"template_rendered_code": "",
 					"meta_description": "",
@@ -110,12 +91,15 @@
 					"back_route": "",
 					"back_route_params": [],
 					"roles": [],
-					"menus": [],
 					"pages": [],
-					"queries": [],
 					"force_yield_subpages": false,
 					"zoneless": false,
-					"parent_layout": false
+					"parent_layout": false,
+					"query_name": "",
+					"query_params": [],
+					"related_queries": [],
+					"controller_before_action": "",
+					"controller_after_action": ""
 				},
 				{
 					"name": "register",
@@ -127,14 +111,6 @@
 					"title_icon_class": "",
 					"events_code": "",
 					"helpers_code": "",
-					"query": {
-						"name": "",
-						"collection": "",
-						"find_one": false,
-						"filter": {},
-						"options": {},
-						"params": []
-					},
 					"components": [],
 					"template_rendered_code": "",
 					"meta_description": "",
@@ -147,12 +123,15 @@
 					"back_route": "",
 					"back_route_params": [],
 					"roles": [],
-					"menus": [],
 					"pages": [],
-					"queries": [],
 					"force_yield_subpages": false,
 					"zoneless": false,
-					"parent_layout": false
+					"parent_layout": false,
+					"query_name": "",
+					"query_params": [],
+					"related_queries": [],
+					"controller_before_action": "",
+					"controller_after_action": ""
 				},
 				{
 					"name": "verify_email",
@@ -167,14 +146,6 @@
 					"title_icon_class": "",
 					"events_code": "",
 					"helpers_code": "",
-					"query": {
-						"name": "",
-						"collection": "",
-						"find_one": false,
-						"filter": {},
-						"options": {},
-						"params": []
-					},
 					"components": [],
 					"template_rendered_code": "",
 					"meta_description": "",
@@ -186,12 +157,15 @@
 					"back_route": "",
 					"back_route_params": [],
 					"roles": [],
-					"menus": [],
 					"pages": [],
-					"queries": [],
 					"force_yield_subpages": false,
 					"zoneless": false,
-					"parent_layout": false
+					"parent_layout": false,
+					"query_name": "",
+					"query_params": [],
+					"related_queries": [],
+					"controller_before_action": "",
+					"controller_after_action": ""
 				},
 				{
 					"name": "forgot_password",
@@ -203,14 +177,6 @@
 					"title_icon_class": "",
 					"events_code": "",
 					"helpers_code": "",
-					"query": {
-						"name": "",
-						"collection": "",
-						"find_one": false,
-						"filter": {},
-						"options": {},
-						"params": []
-					},
 					"components": [],
 					"template_rendered_code": "",
 					"meta_description": "",
@@ -223,12 +189,15 @@
 					"back_route": "",
 					"back_route_params": [],
 					"roles": [],
-					"menus": [],
 					"pages": [],
-					"queries": [],
 					"force_yield_subpages": false,
 					"zoneless": false,
-					"parent_layout": false
+					"parent_layout": false,
+					"query_name": "",
+					"query_params": [],
+					"related_queries": [],
+					"controller_before_action": "",
+					"controller_after_action": ""
 				},
 				{
 					"name": "reset_password",
@@ -243,14 +212,6 @@
 					"title_icon_class": "",
 					"events_code": "",
 					"helpers_code": "",
-					"query": {
-						"name": "",
-						"collection": "",
-						"find_one": false,
-						"filter": {},
-						"options": {},
-						"params": []
-					},
 					"components": [],
 					"template_rendered_code": "",
 					"meta_description": "",
@@ -262,15 +223,19 @@
 					"back_route": "",
 					"back_route_params": [],
 					"roles": [],
-					"menus": [],
 					"pages": [],
-					"queries": [],
 					"force_yield_subpages": false,
 					"zoneless": false,
-					"parent_layout": false
+					"parent_layout": false,
+					"query_name": "",
+					"query_params": [],
+					"related_queries": [],
+					"controller_before_action": "",
+					"controller_after_action": ""
 				}
 			],
-			"menus": [
+			"type": "zone",
+			"components": [
 				{
 					"name": "left_menu",
 					"class": "nav navbar-nav",
@@ -294,18 +259,12 @@
 					"title_icon_class": "",
 					"events_code": "",
 					"helpers_code": "",
-					"query": {
-						"name": "",
-						"collection": "",
-						"find_one": false,
-						"filter": {},
-						"options": {},
-						"params": []
-					},
 					"components": [],
 					"template_rendered_code": "",
 					"items_container_class": "",
-					"scroll_spy_selector": ""
+					"scroll_spy_selector": "",
+					"query_name": "",
+					"query_params": []
 				},
 				{
 					"name": "right_menu",
@@ -341,22 +300,14 @@
 					"title_icon_class": "",
 					"events_code": "",
 					"helpers_code": "",
-					"query": {
-						"name": "",
-						"collection": "",
-						"find_one": false,
-						"filter": {},
-						"options": {},
-						"params": []
-					},
 					"components": [],
 					"template_rendered_code": "",
 					"items_container_class": "",
-					"scroll_spy_selector": ""
+					"scroll_spy_selector": "",
+					"query_name": "",
+					"query_params": []
 				}
 			],
-			"type": "zone",
-			"components": [],
 			"container_class": "",
 			"layout": "",
 			"navbar_class": "",
@@ -374,27 +325,7 @@
 					"title_icon_class": "",
 					"events_code": "",
 					"helpers_code": "",
-					"query": {
-						"name": "",
-						"collection": "",
-						"find_one": false,
-						"filter": {},
-						"options": {},
-						"params": []
-					},
-					"components": [],
-					"template_rendered_code": "",
-					"meta_description": "",
-					"meta_title": "",
-					"text": "",
-					"container_class": "",
-					"route_params": [],
-					"close_route": "",
-					"close_route_params": [],
-					"back_route": "",
-					"back_route_params": [],
-					"roles": [],
-					"menus": [
+					"components": [
 						{
 							"name": "side_menu",
 							"dest_selector": "",
@@ -408,14 +339,6 @@
 							"items_container_class": "",
 							"scroll_spy_selector": "",
 							"type": "menu",
-							"query": {
-								"name": "",
-								"collection": "",
-								"find_one": false,
-								"filter": {},
-								"options": {},
-								"params": []
-							},
 							"components": [],
 							"items": [
 								{
@@ -440,9 +363,22 @@
 									"route_params": [],
 									"items": []
 								}
-							]
+							],
+							"query_name": "",
+							"query_params": []
 						}
 					],
+					"template_rendered_code": "",
+					"meta_description": "",
+					"meta_title": "",
+					"text": "",
+					"container_class": "",
+					"route_params": [],
+					"close_route": "",
+					"close_route_params": [],
+					"back_route": "",
+					"back_route_params": [],
+					"roles": [],
 					"pages": [
 						{
 							"name": "Activity_Stream",
@@ -466,14 +402,6 @@
 							"zoneless": false,
 							"parent_layout": false,
 							"type": "page",
-							"query": {
-								"name": "",
-								"collection": "",
-								"find_one": false,
-								"filter": {},
-								"options": {},
-								"params": []
-							},
 							"components": [
 								{
 									"name": "activity",
@@ -491,23 +419,20 @@
 									"button_route": "home_private",
 									"button_class": "",
 									"type": "jumbotron",
-									"query": {
-										"name": "",
-										"collection": "",
-										"find_one": false,
-										"filter": {},
-										"options": {},
-										"params": []
-									},
 									"components": [],
-									"button_route_params": []
+									"button_route_params": [],
+									"query_name": "",
+									"query_params": []
 								}
 							],
 							"close_route_params": [],
 							"back_route_params": [],
-							"menus": [],
 							"pages": [],
-							"queries": []
+							"query_name": "",
+							"query_params": [],
+							"related_queries": [],
+							"controller_before_action": "",
+							"controller_after_action": ""
 						},
 						{
 							"name": "todos",
@@ -531,14 +456,6 @@
 							"zoneless": false,
 							"parent_layout": false,
 							"type": "page",
-							"query": {
-								"name": "",
-								"collection": "",
-								"find_one": false,
-								"filter": {},
-								"options": {},
-								"params": []
-							},
 							"components": [
 								{
 									"name": "todo_list",
@@ -556,29 +473,30 @@
 									"button_route": "",
 									"button_class": "",
 									"type": "jumbotron",
-									"query": {
-										"name": "",
-										"collection": "",
-										"find_one": false,
-										"filter": {},
-										"options": {},
-										"params": []
-									},
 									"components": [],
-									"button_route_params": []
+									"button_route_params": [],
+									"query_name": "",
+									"query_params": []
 								}
 							],
 							"close_route_params": [],
 							"back_route_params": [],
-							"menus": [],
 							"pages": [],
-							"queries": []
+							"query_name": "",
+							"query_params": [],
+							"related_queries": [],
+							"controller_before_action": "",
+							"controller_after_action": ""
 						}
 					],
-					"queries": [],
 					"force_yield_subpages": false,
 					"zoneless": false,
-					"parent_layout": false
+					"parent_layout": false,
+					"query_name": "",
+					"query_params": [],
+					"related_queries": [],
+					"controller_before_action": "",
+					"controller_after_action": ""
 				},
 				{
 					"name": "admin",
@@ -594,14 +512,6 @@
 									"type": "data_view",
 									"title": "Users",
 									"text_if_empty": "No users yet",
-									"query": {
-										"name": "admin_users",
-										"collection": "users",
-										"filter": {},
-										"find_one": false,
-										"options": {},
-										"params": []
-									},
 									"fields": [
 										{
 											"name": "profile.name",
@@ -619,14 +529,6 @@
 											"input_template": "",
 											"input_group_class": "",
 											"input_items": [],
-											"lookup_query": {
-												"name": "",
-												"collection": "",
-												"find_one": false,
-												"filter": {},
-												"options": {},
-												"params": []
-											},
 											"lookup_key": "",
 											"lookup_field": "",
 											"display_helper": "",
@@ -642,7 +544,9 @@
 											"show_in_dataview": true,
 											"show_in_insert_form": true,
 											"show_in_update_form": true,
-											"show_in_read_only_form": true
+											"show_in_read_only_form": true,
+											"lookup_query_name": "",
+											"lookup_query_params": []
 										},
 										{
 											"name": "profile.email",
@@ -660,14 +564,6 @@
 											"input_template": "",
 											"input_group_class": "",
 											"input_items": [],
-											"lookup_query": {
-												"name": "",
-												"collection": "",
-												"find_one": false,
-												"filter": {},
-												"options": {},
-												"params": []
-											},
 											"lookup_key": "",
 											"lookup_field": "",
 											"display_helper": "",
@@ -683,7 +579,9 @@
 											"show_in_dataview": true,
 											"show_in_insert_form": true,
 											"show_in_update_form": true,
-											"show_in_read_only_form": true
+											"show_in_read_only_form": true,
+											"lookup_query_name": "",
+											"lookup_query_params": []
 										},
 										{
 											"name": "roles",
@@ -701,14 +599,6 @@
 											"input_template": "",
 											"input_group_class": "",
 											"input_items": [],
-											"lookup_query": {
-												"name": "",
-												"collection": "",
-												"find_one": false,
-												"filter": {},
-												"options": {},
-												"params": []
-											},
 											"lookup_key": "",
 											"lookup_field": "",
 											"display_helper": "",
@@ -724,7 +614,9 @@
 											"show_in_dataview": true,
 											"show_in_insert_form": true,
 											"show_in_update_form": true,
-											"show_in_read_only_form": true
+											"show_in_read_only_form": true,
+											"lookup_query_name": "",
+											"lookup_query_params": []
 										}
 									],
 									"insert_route": "admin.users.insert",
@@ -755,7 +647,9 @@
 									"insert_route_params": [],
 									"delete_route_params": [],
 									"insert_button_title": "",
-									"views": []
+									"views": [],
+									"query_name": "admin_users",
+									"query_params": []
 								}
 							],
 							"pages": [
@@ -770,16 +664,6 @@
 											"type": "form",
 											"mode": "read_only",
 											"title": "User details",
-											"query": {
-												"name": "admin_user",
-												"collection": "users",
-												"filter": {
-													"_id": ":userId"
-												},
-												"find_one": false,
-												"options": {},
-												"params": []
-											},
 											"fields": [
 												{
 													"name": "profile.name",
@@ -797,14 +681,6 @@
 													"input_template": "",
 													"input_group_class": "",
 													"input_items": [],
-													"lookup_query": {
-														"name": "",
-														"collection": "",
-														"find_one": false,
-														"filter": {},
-														"options": {},
-														"params": []
-													},
 													"lookup_key": "",
 													"lookup_field": "",
 													"display_helper": "",
@@ -820,7 +696,9 @@
 													"show_in_dataview": true,
 													"show_in_insert_form": true,
 													"show_in_update_form": true,
-													"show_in_read_only_form": true
+													"show_in_read_only_form": true,
+													"lookup_query_name": "",
+													"lookup_query_params": []
 												},
 												{
 													"name": "profile.email",
@@ -838,14 +716,6 @@
 													"input_template": "",
 													"input_group_class": "",
 													"input_items": [],
-													"lookup_query": {
-														"name": "",
-														"collection": "",
-														"find_one": false,
-														"filter": {},
-														"options": {},
-														"params": []
-													},
 													"lookup_key": "",
 													"lookup_field": "",
 													"display_helper": "",
@@ -861,7 +731,9 @@
 													"show_in_dataview": true,
 													"show_in_insert_form": true,
 													"show_in_update_form": true,
-													"show_in_read_only_form": true
+													"show_in_read_only_form": true,
+													"lookup_query_name": "",
+													"lookup_query_params": []
 												},
 												{
 													"name": "roles",
@@ -879,14 +751,6 @@
 													"input_template": "",
 													"input_group_class": "",
 													"input_items": [],
-													"lookup_query": {
-														"name": "",
-														"collection": "",
-														"find_one": false,
-														"filter": {},
-														"options": {},
-														"params": []
-													},
 													"lookup_key": "",
 													"lookup_field": "",
 													"display_helper": "",
@@ -902,7 +766,9 @@
 													"show_in_dataview": true,
 													"show_in_insert_form": true,
 													"show_in_update_form": true,
-													"show_in_read_only_form": true
+													"show_in_read_only_form": true,
+													"lookup_query_name": "",
+													"lookup_query_params": []
 												}
 											],
 											"close_route": "admin.users",
@@ -924,7 +790,9 @@
 											"cancel_route_params": [],
 											"close_route_params": [],
 											"back_route_params": [],
-											"hidden_fields": []
+											"hidden_fields": [],
+											"query_name": "admin_user",
+											"query_params": []
 										}
 									],
 									"type": "page",
@@ -935,14 +803,6 @@
 									"title_icon_class": "",
 									"events_code": "",
 									"helpers_code": "",
-									"query": {
-										"name": "",
-										"collection": "",
-										"find_one": false,
-										"filter": {},
-										"options": {},
-										"params": []
-									},
 									"template_rendered_code": "",
 									"meta_description": "",
 									"meta_title": "",
@@ -953,12 +813,15 @@
 									"back_route": "",
 									"back_route_params": [],
 									"roles": [],
-									"menus": [],
 									"pages": [],
-									"queries": [],
 									"force_yield_subpages": false,
 									"zoneless": false,
-									"parent_layout": false
+									"parent_layout": false,
+									"query_name": "",
+									"query_params": [],
+									"related_queries": [],
+									"controller_before_action": "",
+									"controller_after_action": ""
 								},
 								{
 									"name": "insert",
@@ -970,16 +833,6 @@
 											"title": "Add new user",
 											"submit_route": "admin.users",
 											"cancel_route": "admin.users",
-											"query": {
-												"name": "users_null",
-												"collection": "users",
-												"filter": {
-													"_id": null
-												},
-												"find_one": false,
-												"options": {},
-												"params": []
-											},
 											"fields": [
 												{
 													"name": "profile.name",
@@ -997,14 +850,6 @@
 													"input_template": "",
 													"input_group_class": "",
 													"input_items": [],
-													"lookup_query": {
-														"name": "",
-														"collection": "",
-														"find_one": false,
-														"filter": {},
-														"options": {},
-														"params": []
-													},
 													"lookup_key": "",
 													"lookup_field": "",
 													"display_helper": "",
@@ -1020,7 +865,9 @@
 													"show_in_dataview": true,
 													"show_in_insert_form": true,
 													"show_in_update_form": true,
-													"show_in_read_only_form": true
+													"show_in_read_only_form": true,
+													"lookup_query_name": "",
+													"lookup_query_params": []
 												},
 												{
 													"name": "profile.email",
@@ -1038,14 +885,6 @@
 													"input_template": "",
 													"input_group_class": "",
 													"input_items": [],
-													"lookup_query": {
-														"name": "",
-														"collection": "",
-														"find_one": false,
-														"filter": {},
-														"options": {},
-														"params": []
-													},
 													"lookup_key": "",
 													"lookup_field": "",
 													"display_helper": "",
@@ -1061,7 +900,9 @@
 													"show_in_dataview": true,
 													"show_in_insert_form": true,
 													"show_in_update_form": true,
-													"show_in_read_only_form": true
+													"show_in_read_only_form": true,
+													"lookup_query_name": "",
+													"lookup_query_params": []
 												},
 												{
 													"name": "password",
@@ -1079,14 +920,6 @@
 													"input_template": "",
 													"input_group_class": "",
 													"input_items": [],
-													"lookup_query": {
-														"name": "",
-														"collection": "",
-														"find_one": false,
-														"filter": {},
-														"options": {},
-														"params": []
-													},
 													"lookup_key": "",
 													"lookup_field": "",
 													"display_helper": "",
@@ -1102,7 +935,9 @@
 													"show_in_dataview": true,
 													"show_in_insert_form": true,
 													"show_in_update_form": true,
-													"show_in_read_only_form": true
+													"show_in_read_only_form": true,
+													"lookup_query_name": "",
+													"lookup_query_params": []
 												}
 											],
 											"dest_selector": "",
@@ -1122,7 +957,9 @@
 											"cancel_route_params": [],
 											"close_route_params": [],
 											"back_route_params": [],
-											"hidden_fields": []
+											"hidden_fields": [],
+											"query_name": "users_null",
+											"query_params": []
 										}
 									],
 									"type": "page",
@@ -1133,14 +970,6 @@
 									"title_icon_class": "",
 									"events_code": "",
 									"helpers_code": "",
-									"query": {
-										"name": "",
-										"collection": "",
-										"find_one": false,
-										"filter": {},
-										"options": {},
-										"params": []
-									},
 									"template_rendered_code": "",
 									"meta_description": "",
 									"meta_title": "",
@@ -1152,12 +981,15 @@
 									"back_route": "",
 									"back_route_params": [],
 									"roles": [],
-									"menus": [],
 									"pages": [],
-									"queries": [],
 									"force_yield_subpages": false,
 									"zoneless": false,
-									"parent_layout": false
+									"parent_layout": false,
+									"query_name": "",
+									"query_params": [],
+									"related_queries": [],
+									"controller_before_action": "",
+									"controller_after_action": ""
 								},
 								{
 									"name": "edit",
@@ -1172,16 +1004,6 @@
 											"title": "Edit user",
 											"submit_route": "admin.users",
 											"cancel_route": "admin.users",
-											"query": {
-												"name": "admin_user",
-												"collection": "users",
-												"filter": {
-													"_id": ":userId"
-												},
-												"find_one": false,
-												"options": {},
-												"params": []
-											},
 											"fields": [
 												{
 													"name": "profile.name",
@@ -1199,14 +1021,6 @@
 													"input_template": "",
 													"input_group_class": "",
 													"input_items": [],
-													"lookup_query": {
-														"name": "",
-														"collection": "",
-														"find_one": false,
-														"filter": {},
-														"options": {},
-														"params": []
-													},
 													"lookup_key": "",
 													"lookup_field": "",
 													"display_helper": "",
@@ -1222,7 +1036,9 @@
 													"show_in_dataview": true,
 													"show_in_insert_form": true,
 													"show_in_update_form": true,
-													"show_in_read_only_form": true
+													"show_in_read_only_form": true,
+													"lookup_query_name": "",
+													"lookup_query_params": []
 												},
 												{
 													"name": "profile.email",
@@ -1240,14 +1056,6 @@
 													"input_template": "",
 													"input_group_class": "",
 													"input_items": [],
-													"lookup_query": {
-														"name": "",
-														"collection": "",
-														"find_one": false,
-														"filter": {},
-														"options": {},
-														"params": []
-													},
 													"lookup_key": "",
 													"lookup_field": "",
 													"display_helper": "",
@@ -1263,7 +1071,9 @@
 													"show_in_dataview": true,
 													"show_in_insert_form": true,
 													"show_in_update_form": true,
-													"show_in_read_only_form": true
+													"show_in_read_only_form": true,
+													"lookup_query_name": "",
+													"lookup_query_params": []
 												},
 												{
 													"name": "roles",
@@ -1298,14 +1108,6 @@
 													"exportable": false,
 													"input_template": "",
 													"input_group_class": "",
-													"lookup_query": {
-														"name": "",
-														"collection": "",
-														"find_one": false,
-														"filter": {},
-														"options": {},
-														"params": []
-													},
 													"lookup_key": "",
 													"lookup_field": "",
 													"display_helper": "",
@@ -1321,7 +1123,9 @@
 													"show_in_dataview": true,
 													"show_in_insert_form": true,
 													"show_in_update_form": true,
-													"show_in_read_only_form": true
+													"show_in_read_only_form": true,
+													"lookup_query_name": "",
+													"lookup_query_params": []
 												}
 											],
 											"dest_selector": "",
@@ -1341,7 +1145,9 @@
 											"cancel_route_params": [],
 											"close_route_params": [],
 											"back_route_params": [],
-											"hidden_fields": []
+											"hidden_fields": [],
+											"query_name": "admin_user",
+											"query_params": []
 										}
 									],
 									"type": "page",
@@ -1352,14 +1158,6 @@
 									"title_icon_class": "",
 									"events_code": "",
 									"helpers_code": "",
-									"query": {
-										"name": "",
-										"collection": "",
-										"find_one": false,
-										"filter": {},
-										"options": {},
-										"params": []
-									},
 									"template_rendered_code": "",
 									"meta_description": "",
 									"meta_title": "",
@@ -1370,12 +1168,15 @@
 									"back_route": "",
 									"back_route_params": [],
 									"roles": [],
-									"menus": [],
 									"pages": [],
-									"queries": [],
 									"force_yield_subpages": false,
 									"zoneless": false,
-									"parent_layout": false
+									"parent_layout": false,
+									"query_name": "",
+									"query_params": [],
+									"related_queries": [],
+									"controller_before_action": "",
+									"controller_after_action": ""
 								}
 							],
 							"type": "page",
@@ -1386,14 +1187,6 @@
 							"title_icon_class": "",
 							"events_code": "",
 							"helpers_code": "",
-							"query": {
-								"name": "",
-								"collection": "",
-								"find_one": false,
-								"filter": {},
-								"options": {},
-								"params": []
-							},
 							"template_rendered_code": "",
 							"meta_description": "",
 							"meta_title": "",
@@ -1405,14 +1198,25 @@
 							"back_route": "",
 							"back_route_params": [],
 							"roles": [],
-							"menus": [],
-							"queries": [],
 							"force_yield_subpages": false,
 							"zoneless": false,
-							"parent_layout": false
+							"parent_layout": false,
+							"query_name": "",
+							"query_params": [],
+							"related_queries": [],
+							"controller_before_action": "",
+							"controller_after_action": ""
 						}
 					],
-					"menus": [
+					"type": "page",
+					"template": "",
+					"custom_template": "",
+					"class": "",
+					"title": "",
+					"title_icon_class": "",
+					"events_code": "",
+					"helpers_code": "",
+					"components": [
 						{
 							"name": "side_menu",
 							"class": "nav nav-stacked nav-pills",
@@ -1436,37 +1240,14 @@
 							"title_icon_class": "",
 							"events_code": "",
 							"helpers_code": "",
-							"query": {
-								"name": "",
-								"collection": "",
-								"find_one": false,
-								"filter": {},
-								"options": {},
-								"params": []
-							},
 							"components": [],
 							"template_rendered_code": "",
 							"items_container_class": "",
-							"scroll_spy_selector": ""
+							"scroll_spy_selector": "",
+							"query_name": "",
+							"query_params": []
 						}
 					],
-					"type": "page",
-					"template": "",
-					"custom_template": "",
-					"class": "",
-					"title": "",
-					"title_icon_class": "",
-					"events_code": "",
-					"helpers_code": "",
-					"query": {
-						"name": "",
-						"collection": "",
-						"find_one": false,
-						"filter": {},
-						"options": {},
-						"params": []
-					},
-					"components": [],
 					"template_rendered_code": "",
 					"meta_description": "",
 					"meta_title": "",
@@ -1477,10 +1258,14 @@
 					"close_route_params": [],
 					"back_route": "",
 					"back_route_params": [],
-					"queries": [],
 					"force_yield_subpages": false,
 					"zoneless": false,
-					"parent_layout": false
+					"parent_layout": false,
+					"query_name": "",
+					"query_params": [],
+					"related_queries": [],
+					"controller_before_action": "",
+					"controller_after_action": ""
 				},
 				{
 					"name": "user_settings",
@@ -1498,16 +1283,6 @@
 									"mode": "update",
 									"title": "Edit your profile",
 									"submit_route": "user_settings.profile",
-									"query": {
-										"name": "current_user_data",
-										"collection": "users",
-										"filter": {
-											"_id": "Meteor.userId()"
-										},
-										"find_one": true,
-										"options": {},
-										"params": []
-									},
 									"fields": [
 										{
 											"name": "profile.name",
@@ -1525,14 +1300,6 @@
 											"input_template": "",
 											"input_group_class": "",
 											"input_items": [],
-											"lookup_query": {
-												"name": "",
-												"collection": "",
-												"find_one": false,
-												"filter": {},
-												"options": {},
-												"params": []
-											},
 											"lookup_key": "",
 											"lookup_field": "",
 											"display_helper": "",
@@ -1548,7 +1315,9 @@
 											"show_in_dataview": true,
 											"show_in_insert_form": true,
 											"show_in_update_form": true,
-											"show_in_read_only_form": true
+											"show_in_read_only_form": true,
+											"lookup_query_name": "",
+											"lookup_query_params": []
 										},
 										{
 											"name": "profile.email",
@@ -1566,14 +1335,6 @@
 											"input_template": "",
 											"input_group_class": "",
 											"input_items": [],
-											"lookup_query": {
-												"name": "",
-												"collection": "",
-												"find_one": false,
-												"filter": {},
-												"options": {},
-												"params": []
-											},
 											"lookup_key": "",
 											"lookup_field": "",
 											"display_helper": "",
@@ -1589,7 +1350,9 @@
 											"show_in_dataview": true,
 											"show_in_insert_form": true,
 											"show_in_update_form": true,
-											"show_in_read_only_form": true
+											"show_in_read_only_form": true,
+											"lookup_query_name": "",
+											"lookup_query_params": []
 										},
 										{
 											"name": "profile.facebook",
@@ -1607,14 +1370,6 @@
 											"input_template": "",
 											"input_group_class": "",
 											"input_items": [],
-											"lookup_query": {
-												"name": "",
-												"collection": "",
-												"find_one": false,
-												"filter": {},
-												"options": {},
-												"params": []
-											},
 											"lookup_key": "",
 											"lookup_field": "",
 											"display_helper": "",
@@ -1630,7 +1385,9 @@
 											"show_in_dataview": true,
 											"show_in_insert_form": true,
 											"show_in_update_form": true,
-											"show_in_read_only_form": true
+											"show_in_read_only_form": true,
+											"lookup_query_name": "",
+											"lookup_query_params": []
 										},
 										{
 											"name": "profile.google",
@@ -1648,14 +1405,6 @@
 											"input_template": "",
 											"input_group_class": "",
 											"input_items": [],
-											"lookup_query": {
-												"name": "",
-												"collection": "",
-												"find_one": false,
-												"filter": {},
-												"options": {},
-												"params": []
-											},
 											"lookup_key": "",
 											"lookup_field": "",
 											"display_helper": "",
@@ -1671,7 +1420,9 @@
 											"show_in_dataview": true,
 											"show_in_insert_form": true,
 											"show_in_update_form": true,
-											"show_in_read_only_form": true
+											"show_in_read_only_form": true,
+											"lookup_query_name": "",
+											"lookup_query_params": []
 										},
 										{
 											"name": "profile.twitter",
@@ -1689,14 +1440,6 @@
 											"input_template": "",
 											"input_group_class": "",
 											"input_items": [],
-											"lookup_query": {
-												"name": "",
-												"collection": "",
-												"find_one": false,
-												"filter": {},
-												"options": {},
-												"params": []
-											},
 											"lookup_key": "",
 											"lookup_field": "",
 											"display_helper": "",
@@ -1712,7 +1455,9 @@
 											"show_in_dataview": true,
 											"show_in_insert_form": true,
 											"show_in_update_form": true,
-											"show_in_read_only_form": true
+											"show_in_read_only_form": true,
+											"lookup_query_name": "",
+											"lookup_query_params": []
 										},
 										{
 											"name": "profile.website",
@@ -1730,14 +1475,6 @@
 											"input_template": "",
 											"input_group_class": "",
 											"input_items": [],
-											"lookup_query": {
-												"name": "",
-												"collection": "",
-												"find_one": false,
-												"filter": {},
-												"options": {},
-												"params": []
-											},
 											"lookup_key": "",
 											"lookup_field": "",
 											"display_helper": "",
@@ -1753,7 +1490,9 @@
 											"show_in_dataview": true,
 											"show_in_insert_form": true,
 											"show_in_update_form": true,
-											"show_in_read_only_form": true
+											"show_in_read_only_form": true,
+											"lookup_query_name": "",
+											"lookup_query_params": []
 										}
 									],
 									"dest_selector": "",
@@ -1774,7 +1513,9 @@
 									"cancel_route_params": [],
 									"close_route_params": [],
 									"back_route_params": [],
-									"hidden_fields": []
+									"hidden_fields": [],
+									"query_name": "current_user_data",
+									"query_params": []
 								}
 							],
 							"type": "page",
@@ -1785,14 +1526,6 @@
 							"title_icon_class": "",
 							"events_code": "",
 							"helpers_code": "",
-							"query": {
-								"name": "",
-								"collection": "",
-								"find_one": false,
-								"filter": {},
-								"options": {},
-								"params": []
-							},
 							"template_rendered_code": "",
 							"meta_description": "",
 							"meta_title": "",
@@ -1804,12 +1537,15 @@
 							"back_route": "",
 							"back_route_params": [],
 							"roles": [],
-							"menus": [],
 							"pages": [],
-							"queries": [],
 							"force_yield_subpages": false,
 							"zoneless": false,
-							"parent_layout": false
+							"parent_layout": false,
+							"query_name": "",
+							"query_params": [],
+							"related_queries": [],
+							"controller_before_action": "",
+							"controller_after_action": ""
 						},
 						{
 							"name": "change_pass",
@@ -1821,14 +1557,6 @@
 							"title_icon_class": "",
 							"events_code": "",
 							"helpers_code": "",
-							"query": {
-								"name": "",
-								"collection": "",
-								"find_one": false,
-								"filter": {},
-								"options": {},
-								"params": []
-							},
 							"components": [],
 							"template_rendered_code": "",
 							"meta_description": "",
@@ -1841,15 +1569,26 @@
 							"back_route": "",
 							"back_route_params": [],
 							"roles": [],
-							"menus": [],
 							"pages": [],
-							"queries": [],
 							"force_yield_subpages": false,
 							"zoneless": false,
-							"parent_layout": false
+							"parent_layout": false,
+							"query_name": "",
+							"query_params": [],
+							"related_queries": [],
+							"controller_before_action": "",
+							"controller_after_action": ""
 						}
 					],
-					"menus": [
+					"type": "page",
+					"template": "",
+					"custom_template": "",
+					"class": "",
+					"title": "",
+					"title_icon_class": "",
+					"events_code": "",
+					"helpers_code": "",
+					"components": [
 						{
 							"name": "side_menu",
 							"class": "nav nav-stacked nav-pills",
@@ -1884,37 +1623,14 @@
 							"title_icon_class": "",
 							"events_code": "",
 							"helpers_code": "",
-							"query": {
-								"name": "",
-								"collection": "",
-								"find_one": false,
-								"filter": {},
-								"options": {},
-								"params": []
-							},
 							"components": [],
 							"template_rendered_code": "",
 							"items_container_class": "",
-							"scroll_spy_selector": ""
+							"scroll_spy_selector": "",
+							"query_name": "",
+							"query_params": []
 						}
 					],
-					"type": "page",
-					"template": "",
-					"custom_template": "",
-					"class": "",
-					"title": "",
-					"title_icon_class": "",
-					"events_code": "",
-					"helpers_code": "",
-					"query": {
-						"name": "",
-						"collection": "",
-						"find_one": false,
-						"filter": {},
-						"options": {},
-						"params": []
-					},
-					"components": [],
 					"template_rendered_code": "",
 					"meta_description": "",
 					"meta_title": "",
@@ -1925,10 +1641,14 @@
 					"close_route_params": [],
 					"back_route": "",
 					"back_route_params": [],
-					"queries": [],
 					"force_yield_subpages": false,
 					"zoneless": false,
-					"parent_layout": false
+					"parent_layout": false,
+					"query_name": "",
+					"query_params": [],
+					"related_queries": [],
+					"controller_before_action": "",
+					"controller_after_action": ""
 				},
 				{
 					"name": "logout",
@@ -1940,14 +1660,6 @@
 					"title_icon_class": "",
 					"events_code": "",
 					"helpers_code": "",
-					"query": {
-						"name": "",
-						"collection": "",
-						"find_one": false,
-						"filter": {},
-						"options": {},
-						"params": []
-					},
 					"components": [],
 					"template_rendered_code": "",
 					"meta_description": "",
@@ -1960,15 +1672,19 @@
 					"back_route": "",
 					"back_route_params": [],
 					"roles": [],
-					"menus": [],
 					"pages": [],
-					"queries": [],
 					"force_yield_subpages": false,
 					"zoneless": false,
-					"parent_layout": false
+					"parent_layout": false,
+					"query_name": "",
+					"query_params": [],
+					"related_queries": [],
+					"controller_before_action": "",
+					"controller_after_action": ""
 				}
 			],
-			"menus": [
+			"type": "zone",
+			"components": [
 				{
 					"name": "left_menu",
 					"class": "nav navbar-nav",
@@ -1992,18 +1708,12 @@
 					"title_icon_class": "",
 					"events_code": "",
 					"helpers_code": "",
-					"query": {
-						"name": "",
-						"collection": "",
-						"find_one": false,
-						"filter": {},
-						"options": {},
-						"params": []
-					},
 					"components": [],
 					"template_rendered_code": "",
 					"items_container_class": "",
-					"scroll_spy_selector": ""
+					"scroll_spy_selector": "",
+					"query_name": "",
+					"query_params": []
 				},
 				{
 					"name": "right_menu",
@@ -2062,22 +1772,14 @@
 					"title_icon_class": "",
 					"events_code": "",
 					"helpers_code": "",
-					"query": {
-						"name": "",
-						"collection": "",
-						"find_one": false,
-						"filter": {},
-						"options": {},
-						"params": []
-					},
 					"components": [],
 					"template_rendered_code": "",
 					"items_container_class": "",
-					"scroll_spy_selector": ""
+					"scroll_spy_selector": "",
+					"query_name": "",
+					"query_params": []
 				}
 			],
-			"type": "zone",
-			"components": [],
 			"container_class": "",
 			"layout": "",
 			"navbar_class": "",
@@ -2087,7 +1789,6 @@
 			"type": "zone",
 			"components": [],
 			"container_class": "",
-			"menus": [],
 			"pages": [],
 			"layout": "",
 			"navbar_class": "",
@@ -2117,6 +1818,46 @@
 		"on_user_logged_source_file": "",
 		"server_side_routes": [],
 		"copy_files": [],
-		"router_config": {}
+		"router_config": {},
+		"queries": [
+			{
+				"name": "admin_users",
+				"collection": "users",
+				"filter": {},
+				"find_one": false,
+				"options": {},
+				"related_queries": []
+			},
+			{
+				"name": "admin_user",
+				"collection": "users",
+				"filter": {
+					"_id": ":userId"
+				},
+				"find_one": true,
+				"options": {},
+				"related_queries": []
+			},
+			{
+				"name": "users_null",
+				"collection": "users",
+				"filter": {
+					"_id": null
+				},
+				"find_one": true,
+				"options": {},
+				"related_queries": []
+			},
+			{
+				"name": "current_user_data",
+				"collection": "users",
+				"filter": {
+					"_id": "Meteor.userId()"
+				},
+				"find_one": true,
+				"options": {},
+				"related_queries": []
+			}
+		]
 	}
 }
